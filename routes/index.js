@@ -87,7 +87,7 @@ router.get("/estimate", validateQuery(schemas.estimate), ctrl.estimate);
  *               example:
  *               - exchangeName: binance
  *                 outputAmount: 66000.25
- *               - exchangeName: exchange
+ *               - exchangeName: kucoin
  *                 outputAmount: 66001.67
  * */
 
